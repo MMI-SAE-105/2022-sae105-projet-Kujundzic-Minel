@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Qui suis-je !</title>
+</head>
+<body>
+
+    <header>
+        <img src="src/image/header/Vector.webp">
+       <a href="index.html"> <img src="src/image/header/logo srebrenica.webp"> </a>
+
+   
+        <div x-data={open:false}>
+            <button @click="open = ! open"><span></span></button>
+            <ul x-show="open">
+                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                <li><a href="glossaire.html">Glossaire</a></li>
+                <li><a href="autresprojets.html">Autres Projet</a></li>
+                <li><a href="filmographie.html">Filmographie</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <main>
+
+            <h1>Qui suis-je ?</h1>
+            <p>Moi, c’est Minel, j’ai 18 ans, et je suis originaire de Bosnie-Herzegovine.</p>
+
+            <h2>Mon parcours</h2>
+            <p>Avant d’arriver en MMI à Montbéliard, j’ai été au lycée Germaine Tilion à Montbéliard également, lycée dans lequel j’ai suivi une formation technologique, la filière STI2D avec en spécialité EE (Energie et environnement).
+                Autant vous dire que ce n’est pas du le même monde qu’en MMI ! J’ai obtenu mon baccalauréat avec la mention assez bien, et me voilà donc maintenant en MMI. </p>
+
+        </main>
+    
+
+
+        <footer>
+            <p>
+                Projet réalisé dans le cadre d’un excercice
+                pedagogique au <a href="http://mmimontbeliard.com/"target="_blank">département MMI de 
+                Montbéliard.</a>
+            </p>
+    
+            <p>
+                Mailto
+            </p>
+    
+            <p>
+                Reseaux sociaux MMI :
+            </p>
+    
+    
+    
+            <p>
+                Mentions légales
+            </p>
+    
+            <p>
+                Kujundzic Minel
+            </p>
+    
+            <img src="src/image/logo mmi.webp">
+    
+    
+        </footer>
+    
+</body>
+</html>
