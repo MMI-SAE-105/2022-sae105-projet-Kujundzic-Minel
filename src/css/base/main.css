@@ -6,11 +6,20 @@
   height: 48px;
   width: 375px;
   background-color: #007548;
-  padding-bottom: 100px;
+
 }
 
 .imagefond {
-  border-bottom: 48px solid #007548;
 
+}
 
+.fond {
+  background-color: #00C278;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #00C278;
 }
