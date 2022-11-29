@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="../src/css/style.css">
     <title>BosnianMemory</title>
 </head>
 <body>
@@ -17,13 +18,13 @@
    
         <div x-data={open:false}>
             <button @click="open = ! open"><span></span></button>
-            <ul x-show="open">
-                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
-                <li><a href="glossaire.html">Glossaire</a></li>
-                <li><a href="autresprojets.html">Autres Projet</a></li>
-                <li><a href="filmographie.html">Filmographie</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul x-show="open" class="menuul">
+                <li class="menuli"><a href="quisuisje.html">Qui suis-je ?</a></li>
+                <li class="menuli"><a href="glossaire.html">Glossaire</a></li>
+                <li class="menuli"><a href="autresprojets.html">Autres Projet</a></li>
+                <li class="menuli"><a href="filmographie.html">Filmographie</a></li>
+                <li class="menuli"><a href="apropos.html">A propos</a></li>
+                <li class="menuli"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     
@@ -32,7 +33,7 @@
 
     <main>
 
-        <img src="../src/image/accueil/fond.webp" class="imagefond">
+        <div class="imagefond"><img src="../src/image/accueil/fond.webp"></div>
 
         <article>
             <img src="../src/image/accueil/srebrenica.webp">
@@ -65,9 +66,11 @@
         </article>
     </main>
 
+        <div class="rectangle"></div>
 
 
-    <footer>
+
+    <footer class="footer">
         <p>
             Projet réalisé dans le cadre d’un excercice
             pedagogique au <a href="http://mmimontbeliard.com/"target="_blank">département MMI de 
