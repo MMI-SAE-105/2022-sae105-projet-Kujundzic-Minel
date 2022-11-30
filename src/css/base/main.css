@@ -1,4 +1,13 @@
-.menuli {
+.header__nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #007548;
+}
+
+.header__nav--ul li {
   list-style: none;
 }
 
@@ -10,16 +19,22 @@
 }
 
 .imagefond {
+  display: block;
+  border-bottom: 48px solid #007548;
 
 }
 
-.fond {
+
+.fondindex {
   background-color: #00C278;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  background-color: #00C278;
+.header__nav--btn {
+  display: block;
+  margin: 20px 30px 0 auto;
+}
+
+.header__btn {
+  display: block;
+  margin: 20px 30px 0 auto;
 }

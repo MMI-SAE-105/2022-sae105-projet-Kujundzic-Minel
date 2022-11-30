@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="../src/css/style.css">
     <title>BosnianMemory</title>
 </head>
-<body class="fond">
+<body class="fondindex">
     
     <header class="header">
-       <a href="index.html"> <img src="../src/image/header/logo srebrenica.webp"> </a>
+       <a href="index.html"> <img src="../src/image/header/logo srebrenica.webp"></a>
 
     
 
    
         <div x-data={open:false}>
-            <button @click="open = ! open"><span></span></button>
-            <ul x-show="open" class="menuul">
-                <li class="menuli"><a href="quisuisje.html">Qui suis-je ?</a></li>
-                <li class="menuli"><a href="glossaire.html">Glossaire</a></li>
-                <li class="menuli"><a href="autresprojets.html">Autres Projet</a></li>
-                <li class="menuli"><a href="filmographie.html">Filmographie</a></li>
-                <li class="menuli"><a href="apropos.html">A propos</a></li>
-                <li class="menuli"><a href="contact.html">Contact</a></li>
-            </ul>
+            <button class="header__btn" @click="open = ! open">
+                <span></span>
+            </button>
+            <nav class="header__nav" x-show="open">
+                <button class="header__nav--btn" @click="open = ! open">
+                    <span></span>
+                </button>
+                <ul class="header__nav--ul">
+                    <li class="header__nav--item1"><a href="quisuisje.html">Qui suis-je ?</a></li>
+                    <li class="header__nav--item2"><a href="glossaire.html">Glossaire</a></li>
+                    <li class="header__nav--item3"><a href="autresprojets.html">Autres Projet</a></li>
+                    <li class="header__nav--item4"><a href="filmographie.html">Filmographie</a></li>
+                    <li class="header__nav--item5"><a href="apropos.html">A propos</a></li>
+                    <li class="header__nav--item6"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     
     </header>
@@ -33,7 +40,7 @@
 
     <main>
 
-        <div class="imagefond"><img src="../src/image/accueil/fond.webp"></div>
+        <img class="imagefond" src="../src/image/accueil/fond.webp">
 
         <article>
             <img src="../src/image/accueil/srebrenica.webp">
