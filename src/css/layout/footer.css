@@ -5,6 +5,7 @@
     padding: 1px 0 0;
     font-family: Arial, Helvetica, sans-serif;
     color: blanchedalmond;
+    
 }
 
 .footer__clickable {
@@ -12,3 +13,20 @@
     font-style: italic;
 }
 
+.footer__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 0 20px;
+}
+
+.footer__icon1 {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .footer__icon--mmi {
+    max-width: 80px;
+    max-height: 80px;
+    display: flex;
+    align-items: left;
+  }
