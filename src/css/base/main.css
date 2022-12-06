@@ -5,6 +5,8 @@
   right: 0;
   left: 0;
   background-color: #007548;
+  overflow: hidden;
+  z-index: 20;
 }
 
 .header__nav--ul li {
