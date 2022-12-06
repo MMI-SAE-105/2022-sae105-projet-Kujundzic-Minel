@@ -9,7 +9,7 @@
     margin-right: 25px;
     margin-top: 25px ;
     margin-bottom: 25px;
-  }
+}
   
   .main__widget img {
     width: 126px;
@@ -19,7 +19,7 @@
     margin-left: 10px;
     align-content: center;
     vertical-align: middle;
-  }
+}
   
   .main__widget a {
     color: #fff;
@@ -29,4 +29,4 @@
     font-family: var(--dosis);
     margin-right: 20px;
     font-size: 16px;
-  }
+}

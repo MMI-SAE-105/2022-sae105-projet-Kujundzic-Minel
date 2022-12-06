@@ -1,14 +1,4 @@
 :root {
-/* Color styles */
---sepa-foot: rgba(74, 247, 180, 1);
---footer--gris: rgba(62, 61, 61, 1);
-
-/* Text-size styles */
---header-1: 24px;
---header-2: 20px;
---text-1: 16px;
---footer-test-gris: 16px;
-
-
+/* Typographies utilisées */
 --dosis : 'Dosis', sans-serif;
 }
