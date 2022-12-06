@@ -23,11 +23,6 @@
   color: blanchedalmond;
 }
 
-/* .rectangle {
-  height: 48px;
-  background-color: #007548;
-  /* margin-top: 100px; */
-
 .imagefond {
   display: block;
   align-items: center;
@@ -81,7 +76,6 @@
   font-family: var(--dosis);
   margin-right: 20px;
   font-size: 16px;
-
 }
 
 
@@ -97,7 +91,6 @@ a {
   background-color: #007548;
   border-radius: 10px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-
 }
 
 
@@ -127,4 +120,39 @@ p {
   color: #000000;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.main__nav--ul__ap {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: left;
+}
+
+.main__nav--ul__ap a {
+  list-style: none;
+  line-height: 50px;
+  color: black;
+  margin-left: 15px ;
+  margin-right: 15px;
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-family: var(--dosis);
+  color: #000000;
+  
+}
+
+.main__nav--ul__li{
+  margin-left: 15px ;
+  margin-right: 55px;
+  margin-top: 10px ;
+  margin-bottom: 5px;
+  list-style: none;
+  background-color: #007548;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
