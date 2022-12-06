@@ -10,12 +10,12 @@
 }
 
 .header__nav--ul li {
-  font : 30px Arial, Helvetica, sans-serif;
+  font-family: var(--dosis);
+  font-size: 24px;
   display: flex;
   flex-direction: column; 
-
   list-style: none;  
-  line-height: 100px;
+  line-height: 80px;
   color: blanchedalmond;
 }
 
