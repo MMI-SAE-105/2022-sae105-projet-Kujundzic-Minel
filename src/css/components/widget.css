@@ -1,0 +1,32 @@
+.main__widget {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 25px;
+    margin-left: 25px ;
+    margin-right: 25px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+  }
+  
+  .main__widget img {
+    width: 126px;
+    height: 126px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-content: center;
+    vertical-align: middle;
+  }
+  
+  .main__widget a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--dosis);
+    margin-right: 20px;
+    font-size: 16px;
+  }
