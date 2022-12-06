@@ -9,6 +9,9 @@
     position: relative;
     bottom: 0;
     z-index: 0;
+    border-top: #007548;
+    border-top-style: solid;
+    border-top-width: 48px;
     
     
 }

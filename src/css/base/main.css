@@ -23,12 +23,10 @@
   color: blanchedalmond;
 }
 
-.rectangle {
+/* .rectangle {
   height: 48px;
   background-color: #007548;
   /* margin-top: 100px; */
-  max-width: 100%;
-}
 
 .imagefond {
   display: block;
@@ -128,4 +126,5 @@ p {
   font-family: var(--dosis);
   color: #000000;
   margin-left: 10px;
+  margin-right: 10px;
 }
