@@ -41,15 +41,23 @@
 .footer__text a {
     color: blanchedalmond;
 }
-
-.footer__icon1 {
-    max-width: 30px;
-    max-height: 30px;
-  }
   
   .footer__icon--mmi {
-    max-width: 80px;
-    max-height: 80px;
-    display: flex;
-    align-items: left;
+    max-width: 50px;
+    max-height: 50px;
   }
+
+  .footer__icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__icon--logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__icon--logo__mmi {
+    display: flex;
+    justify-content: right;
+}
