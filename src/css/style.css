@@ -12,10 +12,12 @@
 @import "base/media.css";
 
 /* Components */
+@import url(components/widget.css);
 
 /* Layout */
-@import url(../css/layout/header.css);
-@import url(../css/layout/footer.css);
+@import url(layout/header.css);
+@import url(layout/footer.css);
+
 
 
 
