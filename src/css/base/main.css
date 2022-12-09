@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+.noScroll,
+.noScroll body {
+  overflow: hidden;
+}
+
 .imagefond {
   display: block;
   align-items: center;
