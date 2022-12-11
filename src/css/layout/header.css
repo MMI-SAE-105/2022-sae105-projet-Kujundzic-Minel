@@ -8,18 +8,29 @@
 
 .logo {
     display: block;
-    width: 40px;
-    padding: 10px 0 10px 10px;
+    width:40px;
+    padding: 15px 0 10px 10px;
 }
 
 .header__nav--btn {
     display: block;
-    margin: 20px 30px 0 auto;
+    margin: 10px 10px 0 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #007548;
+    border: none;
+    right: 0px;
+    position: fixed;
+    align-items: flex-end;
 }
   
   .header__btn {
     display: block;
-    margin: 20px 30px 0 auto;
+    margin: 10px 10px 0 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #007548;
+    border: none;
  }
 
   .header__nav {
@@ -32,6 +43,7 @@
     overflow: hidden;
     z-index: 20;
 }
+
   
   .header__nav--ul li {
     font-family: var(--dosis);
