@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" x-data={open:false} :class="open && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Filmographie</title>
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo"> <img src="../src/image/header/logo srebrenica.webp"></a>
+ 
+     
+ 
+    
+         <div>
+            <button class="header__btn" @click="open = ! open">
+                <img src="../src/image/menu_icon.png" alt="icon menu">
+            </button> 
+            <nav class="header__nav" x-show="open">
+                <button class="header__nav--btn" @click="open = ! open">
+                    <img src="../src/image/menu_icon.png" alt="icon menu">
+                </button>
+                 <ul class="header__nav--ul">
+                     <li class="header__nav--item1"><a href="quisuisje.html">Qui suis-je ?</a></li>
+                     <li class="header__nav--item2"><a href="glossaire.html">Glossaire</a></li>
+                     <li class="header__nav--item3"><a href="autresprojets.html">Autres Projet</a></li>
+                     <li class="header__nav--item4"><a href="filmographie.html">Filmographie</a></li>
+                     <li class="header__nav--item5"><a href="apropos.html">A propos</a></li>
+                     <li class="header__nav--item6"><a href="contact.html">Contact</a></li>
+                 </ul>
+             </nav>
+         </div>
+     
+     </header>
+
+
+     <p>efuiheu</p>
+
+
+
+
+     <footer class="footer">
+        <div class="footer__text">
+            <p>
+                Projet réalisé dans le cadre d’un excercice
+                pedagogique au <a href="http://mmimontbeliard.com/"target="_blank" class="footer__clickable">département MMI de
+                Montbéliard.</a>
+            </p>
+            <p>
+                Mailto
+            </p>
+            <p>
+                Reseaux sociaux MMI :
+            </p>
+
+            <div class="footer__icon">
+                <a href="https://fr.linkedin.com/school/mmimontbeliard/"><img class="footer__icon--logo" src="../src/image/icon/linkedin.webp" alt="Logo Linkedin"></a>
+                <a href="https://twitter.com/mmimontbeliard?lang=fr"><img class="footer__icon--logo" src="../src/image/icon/twitter.webp" alt="Logo Twitter"></a>
+            </div>
+            
+            <p>
+                Mentions légales
+            </p>
+            <p>
+                Kujundzic Minel
+            </p>
+
+            <div class="footer__icon--logo__mmi">
+                <img src="../src/image/logo_mmi.webp" class="footer__icon--mmi">
+            </div>
+
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>

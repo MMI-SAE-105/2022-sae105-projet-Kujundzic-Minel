@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" x-data={open:false} :class="open && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>BosnianMemory</title>
+</head>
+<body class="fondindex">
+    
+    <header class="header">
+       <a href="index.html" class="logo"> <img src="../src/image/header/logo srebrenica.webp" alt="Logo Srebrenica"></a>
+
+    
+
+   
+        <div>
+            <button class="header__btn" @click="open = ! open">
+                <img src="src/image/menu_icon.png" alt="icon menu">
+            </button> 
+            <nav class="header__nav" x-show="open">
+                <button class="header__nav--btn" @click="open = ! open">
+                    <img src="src/image/menu_icon.png" alt="icon menu">
+                </button>
+                <ul class="header__nav--ul">
+                    <li class="header__nav--item1"><a href="html_francais/quisuisje.html">Qui suis-je ?</a></li>
+                    <li class="header__nav--item2"><a href="html_francais/glossaire.html">Glossaire</a></li>
+                    <li class="header__nav--item3"><a href="html_francais/autresprojets.html">Autres Projet</a></li>
+                    <li class="header__nav--item4"><a href="html_francais/filmographie.html">Filmographie</a></li>
+                    <li class="header__nav--item5"><a href="html_francais/apropos.html">A propos</a></li>
+                    <li class="header__nav--item6"><a href="html_francais/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+
+
+    <main>
+
+        <img class="imagefond" src="../src/image/accueil/fond.webp">
+        <div class="border__img--fond"></div>
+
+        <section class="main__widget">
+            <a href="html_francais/srebrenica.html"><article class="box__widget1">
+                <img src="../src/image/accueil/srebrenica.webp" alt="image de la ville de Srebrenica en Bosnie" class="main__widget1">
+                 <q>La célèbre ville de Srebrenica, la ville connu pour de mauvaises raisons...</q>
+            </article></a>
+            <a href="html_francais/CrisDeBosnie.html"><article class="box__widget1">
+                <img src="../src/image/accueil/musique.webp" alt="Couverture du Single Cris de Bosnie de Kenza Farah" class="main__widget2">
+                <q>Découvrez la face caché de la musique qui était censé soutenir les bosniaques dans cette tragédie.</q>
+            </article></a>
+            <a href="html_francais/VoixdAida.html"><article class="box__widget1">
+                <img src="../src/image/accueil/voix d'aida.webp" alt="Couverture du film "La voix d Aida class="main__widget3">
+                <q>Un film retraçant la vie des femmes durant cette période horrible.</q>
+            </article></a>
+            <a href="html_francais/TheFixer.html"><article class="box__widget1">
+                <img src="../src/image/accueil/thefixer.webp" alt="Couverture du livre The Fixer de Joe Sacco" class="main__widget4">
+                <q>Venez vivre cette guerre sanglante à travers ce brave personnage, Joe Sacco.</q>
+            </article></a>
+            <a href="html_francais/MaCrainte.html"><article class="box__widget1">
+                <img src="../src/image/accueil/crainte.webp" alt="Photo de deux tours détruites en Bosnie" class="main__widget5">
+                <q>Ma crainte ? C'est que ce même scénario ce reprduise..</q>
+            </article></a>
+            <a href="html_francais/MonEspoir.html"><article class="box__widget1">
+                <img src="../src/image/accueil/espoir.webp" alt="Image d'une ville en reconstruction" class="main__widget6">
+             <q>Mon espoir ? C'est celui de voir un jour mon pays d'origine briller.</q> 
+            </article></a>
+        </section>
+
+        <div class="main__button--toppage">
+            <a href="#top"><img src="src/image/to_top.png" alt="Bouton avec une flèche vers le haut"></a>
+        </div>
+        
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__text">
+            <p>
+                Projet réalisé dans le cadre d’un excercice
+                pedagogique au <a href="http://mmimontbeliard.com/"target="_blank" class="footer__clickable">département MMI de
+                Montbéliard.</a>
+            </p>
+            <p>
+                Mailto
+            </p>
+            <p>
+                Reseaux sociaux MMI :
+            </p>
+
+            <div class="footer__icon">
+                <a href="https://fr.linkedin.com/school/mmimontbeliard/"><img class="footer__icon--logo" src="../src/image/icon/linkedin.webp" alt="Logo Linkedin"></a>
+                <a href="https://twitter.com/mmimontbeliard?lang=fr"><img class="footer__icon--logo" src="../src/image/icon/twitter.webp" alt="Logo Twitter"></a>
+            </div>
+            
+            <p>
+                Mentions légales
+            </p>
+            <p>
+                Kujundzic Minel
+            </p>
+
+            <div class="footer__icon--logo__mmi">
+                <img src="../src/image/logo_mmi.webp" class="footer__icon--mmi">
+            </div>
+
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>
