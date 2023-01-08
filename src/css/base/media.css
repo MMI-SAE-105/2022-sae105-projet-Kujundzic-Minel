@@ -16,4 +16,20 @@ figcaption {
   display: flex;
   align-items: center;
   margin: auto;
+  margin-bottom: 20px;
+}
+
+.image-thefixer_2 {
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+}
+
+.image-thefixer {
+  display: flex;
+  align-items: center;
+  margin: auto;
 }

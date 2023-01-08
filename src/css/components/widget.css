@@ -24,7 +24,6 @@
   
   .main__widget a {
     color: #fff;
-    font-size: 20px;
     text-decoration: none;
     text-align: center;
     font-family: var(--dosis);
@@ -35,7 +34,7 @@
 
 .box__widget1 {
   display: flex;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
   width: 100%;
   background-color: #007548;
