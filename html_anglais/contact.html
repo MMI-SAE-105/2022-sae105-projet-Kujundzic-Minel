@@ -38,6 +38,34 @@
 
      <main>
 
+        <div class="form">
+            <form action="#"></form>
+                <p><i>Fill in the form. The fields marked with </i><em>*</em> are <em>obligated</em></p>
+                <fieldset>
+                    <legend>Contact</legend>
+                        <label for="nom">First & last name<em>*</em></label>
+                        <input id="nom" placeholder="Nom Prénom" autofocus="" required=""><br>
+                        <label for="telephone">Phone</label>
+                        <input id="telephone" type="tel" placeholder="xxxxxxxxxx" pattern="06[0-9]{8}"><br>
+                        <label for="email">Email <em>*</em></label>
+                        <input id="email" type="email" placeholder="last-name.first-name@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label for="age">Age<em>*</em></label>
+                    <input id="age" type="number" placeholder="xx" pattern="[0-9]{2}" required=""><br>
+                    <label for="sexe">Sex</label>
+                    <select id="sexe">
+                        <option value="H" name="sexe">Man</option>
+                        <option value="F" name="sexe">Women</option>
+                    </select><br>
+                    <label for="comments">What do you have to tell us?</label>
+                    <textarea id="comments"></textarea>
+                </fieldset>
+                <p><input type="submit" value="Send"></p>
+            </form>
+        </div>
+
 
      </main>
 
