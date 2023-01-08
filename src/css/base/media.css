@@ -12,3 +12,8 @@ figcaption {
   color: var(--gray-600);
 }
 
+.image-voixdaida {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
