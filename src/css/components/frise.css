@@ -1,0 +1,54 @@
+.frise-genocide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px ;
+    margin-right: 15px;
+    padding-top: 10px ;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #007548;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.frise-genocide p {
+    font-family: var(--dosis);
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+
+.frise-genocide-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px ;
+    margin-right: 15px;
+    padding-top: 10px ;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #007548;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.frise-genocide-2 p {
+    font-family: var(--dosis);
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.img-srilanka {
+    width: 167px;
+    height: 101px;
+    border-radius: 10px;
+}
