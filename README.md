@@ -1,7 +1,7 @@
 - NOM : Kujundzic
 - PRÉNOM : Minel
-- URL du site :
-- URL FIGMA :
+- URL du site : https://bosnian-memory.kujundzic.fr
+- URL FIGMA : https://www.figma.com/file/Brt4POHByFOqNf4UFURaKf/Maquettes-projet-individuel-%E2%80%94-Minel-KUJUNDZIC?node-id=802%3A781&t=rHGcmPrWBa9pqAJI-1
 
 # Structure de départ pour le projet individuel.
 
