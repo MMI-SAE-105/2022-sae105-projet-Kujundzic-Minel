@@ -51,7 +51,7 @@
                 des femmes, des enfants, ou encore des personnes âgées.
             </p>
 
-                <img src="../src/image/PageSrebrenica/srebrenica_grad 1.webp">
+                <div class="img_sreb"><img src="../src/image/PageSrebrenica/srebrenica_grad 1.webp"></div>
 
             <h2>
                 Un nettoyage ethnique passant par la destruction de lieu de culte.
@@ -67,7 +67,7 @@
                 mères, mais aussi de jeunes filles, et parfois même de jeunes garçons.
             </p>
 
-                <img src="../src/image/PageSrebrenica/djamija srusena 1.webp">
+                <div class="img_sreb"><img src="../src/image/PageSrebrenica/djamija srusena 1.webp"></div>
 
             <h2>
                 Vingt-cinq ans plus tard, l’hommage est toujours renouvelé
@@ -79,12 +79,37 @@
                 À la mémoire de ces personnes décédées à cause de leur religion, un musée regroupant des photos de
                 chacune des victimes a été ouvert en guise d’hommage .
             </p>
-                <img src="../src/image/PageSrebrenica/musée 1 1.webp" alt="Musée de srebrenica">
-                <img src="../src/image/PageSrebrenica/musée 2 1.webp" alt="Musée de srebrenica">
-                <img src="../src/image/PageSrebrenica/musée 3 1.webp" alt="Musée de srebrenica">
-        
+                
+                
+                
 
 
+                <section>
+                    <carrousel x-data="{hrefCourant: '#ecran-1',}">
+                        <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
+                            <div id="ecran-1" class="carrousel_ecran">
+                                <figure>
+                                    <img src="../src/image/PageSrebrenica/musée 1 1.webp" alt="Musée de srebrenica">
+                                </figure>
+                            </div>
+                            <div id="ecran-2" class="carrousel_ecran">
+                                <figure>
+                                    <img src="../src/image/PageSrebrenica/musée 2 1.webp" alt="Musée de srebrenica">
+                                </figure>
+                            </div>
+                            <div id="ecran-3" class="carrousel_ecran">
+                                <figure>
+                                    <img src="../src/image/PageSrebrenica/musée 3 1.webp" alt="Musée de srebrenica">
+                                </figure>
+                            </div>
+                    </carrousel>
+                </section>
+
+
+
+     
+
+                    <h1>Frise des génocides</h1>
 
                 <div class="frise-genocide">
                     <img src="../src/image/frise/armenien.svg" alt="image genocide arménien">

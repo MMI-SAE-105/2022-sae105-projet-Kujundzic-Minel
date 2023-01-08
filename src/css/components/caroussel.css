@@ -1,0 +1,25 @@
+
+    .carrousel_parent-ecrans {
+      display: flex;
+      width: 95%;
+      overflow-x: scroll; 
+      scroll-behavior: smooth; 
+      scroll-snap-type: x mandatory; 
+      margin-left: 10px;
+    }
+    .carrousel_ecran {
+      width: 80%;
+      flex: none;
+      scroll-snap-align: start; 
+    }
+    .carrousel_ecran figure {
+      margin: 0;
+      padding: 10px;
+    }
+
+    .carrousel {
+        position: relative;
+      }
+
+
+

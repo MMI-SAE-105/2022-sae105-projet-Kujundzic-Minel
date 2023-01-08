@@ -40,3 +40,12 @@ figcaption {
   margin: auto;
   margin-bottom: 20px;
 }
+
+.img_sreb {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 80%;
+  width: 80%;
+}
