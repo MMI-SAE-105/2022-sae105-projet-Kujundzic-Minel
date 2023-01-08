@@ -33,3 +33,10 @@ figcaption {
   align-items: center;
   margin: auto;
 }
+
+.image-espoir {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
