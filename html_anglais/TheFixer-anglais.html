@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" x-data={open:false} :class="open && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>TheFixer</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="../index.html" class="logo"> <img src="../src/image/header/logo srebrenica.webp"></a>
+ 
+     
+ 
+    
+         <div>
+            <button class="header__btn" @click="open = ! open">
+                <img src="../src/image/menu_icon.png" alt="icon menu">
+            </button> 
+            <nav class="header__nav" x-show="open">
+                <button class="header__nav--btn" @click="open = ! open">
+                    <img src="../src/image/menu_icon.png" alt="icon menu">
+                </button>
+                 <ul class="header__nav--ul">
+                     <li class="header__nav--item1"><a href="quisuisje.html">Who I am?</a></li>
+                     <li class="header__nav--item2"><a href="glossaire.html">Glossary</a></li>
+                     <li class="header__nav--item3"><a href="autresprojets.html">Other projects</a></li>
+                     <li class="header__nav--item4"><a href="filmographie.html">Filmography</a></li>
+                     <li class="header__nav--item5"><a href="apropos.html">About</a></li>
+                     <li class="header__nav--item6"><a href="contact.html">Contact</a></li>
+                 </ul>
+             </nav>
+         </div>
+     
+     </header>
+
+    
+    <main>
+        <h1>
+            An interview in comic book form!
+        </h1>
+        <p>
+            Joe Sacco, American-Maltese comic book author and journalist, has invented a graphic
+            at the crossroads of journalism, documentary and comics to transcribe the memories of
+            memories of Bosnian Muslims through a comic book.
+            It is in the book "The Fix, a history of Sarajevo" that Joe Sacco shares with us the life and thoughts of the people of a country
+            thoughts of the people of a country at war, in order to shed light on this tragedy.
+        </p>
+
+        <img class="image-thefixer" src="../src/image/pageJoesacco/the fixer 1 1.svg" alt="jacket du livre The fixer">
+
+        <h2>
+            A tragedy that lasted 3 years.
+        </h2>
+        <p>
+            On April 6, 1992, the war in Bosnia-Herzegovina began, provoked by Serbia, with the aim of carrying out "ethnic cleansing", using as a pretext
+            ethnic cleansing", using as a pretext the problems of political power management.
+            political power management.
+            As the war was coming to an end, Joe Sacco travelled to Bosnia-Herzegovina on his own,
+            in 1995, in order to transcribe the memory of this war, by giving a voice to the
+            victims of this conflict, often forgotten by the traditional media.
+        </p>
+
+        <img class="image-thefixer" src="../src/image/pageJoesacco/The Fixer 3 1.svg" alt="Page du livre The Fixer">
+
+        <h2>
+            False interests, lead this country to the killing of this people!
+        </h2>
+        
+        <p>
+            The author denounces the fact that the United Nations, the United States and other countries were pretending to
+            interested in this war, sending food to Bosnia-Herzegovina rather than helping to
+            stop the killing. That's what prompted him to go to the suffering country to provide support in his own way: to ask for the
+            support in his own way: to ask the victims for their side of the story and offer them a way to testify to the world.
+            It is only 7 years later, in December 2003, that the comic book The Fix, a story of Sarajevo is published.
+            the day. The originality of this book lies in the fact that the interview is represented in drawing, in the form of
+            in the form of a comic book.
+            This work retranscribes the adventure of Joe Sacco, from his arrival in Sarajevo, where he meets Neven, a
+            former soldier of the Bosnian army, who will become his "fixer". After having served under the orders of a warlord, he tries to survive.
+            warlord, he tries to survive between a thousand schemes by selling his "tips" to journalists.
+            The latter tells him about his weapons exploits, but also about the difficulty for the authorities of his country to
+            to build a legitimate and unified army.
+        </p>
+
+        <img class="image-thefixer" src="../src/image/pageJoesacco/armée bosnie 1.svg" alt="Armée de Bosnie">
+
+        <h2>
+            Who is the mysterious soldier "Neven"?
+        </h2>
+        <p>
+            Who is the mysterious soldier "Neven"? During his numerous trips to Bosnia, the journalist, tries to understand both this war and its secrets, and who is really Neven.
+            and its secrets, and who is really Neven.
+            The author will also publish other comics on the war in Bosnia-Herzegovina, such as Gorazde or
+            still Last days of war Bosnia 1995-1996.
+        </p>
+
+        <div class="image-thefixer_2">
+            <img src="../src/image/pageJoesacco/Gorzade 1.svg" alt="Jacket livre Gorazde">
+            <img src="../src/image/pageJoesacco/Derniers-jours-de-guerre 1.svg" alt="Jacket livre Dernier jour de guerre">
+        </div>
+
+        <div class="main__button--toppage">
+            <a href="#top"><img src="../src/image/to_top.png" alt="Bouton avec une flèche vers le haut"></a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__text">
+            <p>
+                Project carried out within the framework of a pedagogical
+                pedagogical exercise at <a href="http://mmimontbeliard.com/"target="_blank" class="footer__clickable">MMI department of
+                Montbéliard.</a>
+            </p>
+            <p>
+                Mailto
+            </p>
+            <p>
+                Social Network MMI :
+            </p>
+
+            <div class="footer__icon">
+                <a href="https://fr.linkedin.com/school/mmimontbeliard/"><img class="footer__icon--logo" src="../src/image/icon/linkedin.webp"></a>
+                <a href="https://twitter.com/mmimontbeliard?lang=fr"><img class="footer__icon--logo" src="../src/image/icon/twitter.webp"></a>
+            </div>
+            
+            <p>
+                Legal Mentions
+            </p>
+            <p>
+                Kujundzic Minel
+            </p>
+
+            <div class="footer__icon--logo__mmi">
+                <img src="../src/image/logo_mmi.webp" class="footer__icon--mmi">
+            </div>
+
+        </div>
+
+
+    </footer>
+
+</body>
+</html>

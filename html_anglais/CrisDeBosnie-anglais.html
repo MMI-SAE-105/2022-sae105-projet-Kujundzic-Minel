@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" x-data={open:false} :class="open && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Cris De Bosnie</title>
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo"> <img src="../src/image/header/logo srebrenica.webp"></a>
+ 
+     
+ 
+    
+         <div>
+            <button class="header__btn" @click="open = ! open">
+                <img src="../src/image/menu_icon.png" alt="icon menu">
+            </button> 
+            <nav class="header__nav" x-show="open">
+                <button class="header__nav--btn" @click="open = ! open">
+                    <img src="../src/image/menu_icon.png" alt="icon menu">
+                </button>
+                 <ul class="header__nav--ul">
+                     <li class="header__nav--item1"><a href="quisuisje.html">Who I am?</a></li>
+                     <li class="header__nav--item2"><a href="glossaire.html">Glossary</a></li>
+                     <li class="header__nav--item3"><a href="autresprojets.html">Other projects</a></li>
+                     <li class="header__nav--item4"><a href="filmographie.html">Filmography</a></li>
+                     <li class="header__nav--item5"><a href="apropos.html">About</a></li>
+                     <li class="header__nav--item6"><a href="contact.html">Contact</a></li>
+                 </ul>
+             </nav>
+         </div>
+     
+     </header>
+
+    <main>
+        <h1>
+            When a pop/rnb star pays tribute to a battered country. 
+        </h1>
+        <p>
+            Screams of Bosnia, was written in the midst of the tragic events in Ex-Yugoslavia by the group Le silence des mosquées, in 2007.
+            This group composed of Karim, Aziz, Kader and Khalid sang with the aim of entertaining themselves and
+            with their passion for singing.
+            However, in 1996, the group realized that their songs had a real impact,
+            so they decided to continue recording music to expand their impact and to shed light on tragedies such as
+            tragedies such as the war and genocide in Bosnia and Herzegovina. 
+        </p>
+
+        <p>
+            Born on July 8, 1986 in Bejaïa, in Kabylia, Farah of her real first name, is originally from the northern districts
+            of Marseille.
+            It is on the tray of Skyrock that the star of the time met for the first time the
+            group of Muslim artists. She would have then invited them to occur with her on stage
+            for its first hexagonal tour, because, touched since its tender childhood by the music
+            music "Cris de Bosnie" that her parents made her listen, Kenza Farah wanted to take back the song in partnership
+            song in partnership with the authors: the group Le silence des mosquées.
+            She was producing her very first album at the time, and would have admitted that it would not be complete
+            and authentic if it did not contain a part of Islam
+        </p>
+
+        <p>
+            Cris de Bosnie is a music sung in choir by its authors. The version in feat with
+            Kenza Farah is sung by her and the chorus with the group. The singer to
+            bring to the music not only more visibility but also a personal touch
+            with her melancholic voice and a more dynamic tempo. Indeed, being in the RnB style, the production
+            production resembles more the young woman and her other works.
+            The lyrics are even more touching with the feminine and poignant voice of Kenza Farah.
+            Indeed, Cries of Bosnia is a choir that testifies to the torture and massacre that has undergone
+            during the war of 1992-1995, but also during the genocide of Srebrenica in
+            July 1995.
+        </p>
+
+        <p>
+            You can find the lyrics of the original song by following this 
+            link:
+
+            <a href="https://www.youtube.com/watch?v=W5SvnUdgnGU">https://www.youtube.com/watch?v=W5SvnUdgnGU</a>
+
+            And the one in partnership with Kenza Farah :
+            <a href="https://youtu.be/MH-oO7LJWhg">https://youtu.be/MH-oO7LJWhg</a>
+        </p>
+
+        <div class="main__button--toppage">
+            <a href="#top"><img src="../src/image/to_top.png" alt="Bouton avec une flèche vers le haut"></a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__text">
+            <p>
+                Project carried out within the framework of a pedagogical
+                pedagogical exercise at <a href="http://mmimontbeliard.com/"target="_blank" class="footer__clickable">MMI department of
+                Montbéliard.</a>
+            </p>
+            <p>
+                Mailto
+            </p>
+            <p>
+                Social Network MMI :
+            </p>
+
+            <div class="footer__icon">
+                <a href="https://fr.linkedin.com/school/mmimontbeliard/"><img class="footer__icon--logo" src="../src/image/icon/linkedin.webp"></a>
+                <a href="https://twitter.com/mmimontbeliard?lang=fr"><img class="footer__icon--logo" src="../src/image/icon/twitter.webp"></a>
+            </div>
+            
+            <p>
+                Legal Mentions
+            </p>
+            <p>
+                Kujundzic Minel
+            </p>
+
+            <div class="footer__icon--logo__mmi">
+                <img src="../src/image/logo_mmi.webp" class="footer__icon--mmi">
+            </div>
+
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>
